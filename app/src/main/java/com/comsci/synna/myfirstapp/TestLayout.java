@@ -1,6 +1,8 @@
 package com.comsci.synna.myfirstapp;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -49,6 +51,17 @@ public class TestLayout extends AppCompatActivity {
 
 
                 return true;
+            }
+        });
+
+        //Phone onClick
+        TextView phoneTextView = (TextView) findViewById(R.id.txtTel);
+        phoneTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
+                phoneIntent.setData(Uri.parse("tel:0957078611"));
+                startActivity(phoneIntent);
             }
         });
 
