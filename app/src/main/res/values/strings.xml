@@ -4,11 +4,18 @@
     <string name="moreInfo">More Info</string>
     <string name="aboutMe">About Me</string>
     <string name="txtDetailAboutme">
-        ชื่อ : นางสาวติณณา บุญอินทร์ \n
-        รหัส : 5711020660049 \n
-        หลักสูตร : วิทยาการคอมพิวเตอร์
+        <b>ชื่อ-สกุล :</b> นางสาวติณณา บุญอินทร์ \n
+        <b>รหัส :</b> 5711020660049 \n
+        <b>หลักสูตร :</b> วิทยาการคอมพิวเตอร์\n
+        <b>เบอร์โทร :</b> 0957078611
     </string>
     <string name="txtDetailFacebook">Facebook</string>
+
+    <string name="Name"><b>ชื่อ-สกุล :</b> นางสาวติณณา บุญอินทร์</string>
+    <string name="StdID"><b>รหัส :</b> 5711020660049</string>
+    <string name="COMSCI"><b>หลักสูตร :</b> วิทยาการคอมพิวเตอร์</string>
+    <string name="Tel"><b>เบอร์โทร :</b> 0957078611</string>
+    <string name="txtFacebook"><b>Facebook :</b> https://www.facebook.com/synsynna </string>
 
 
 </resources>
