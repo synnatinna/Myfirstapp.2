@@ -14,7 +14,7 @@
         android:layout_marginTop="8dp"
         android:text="@string/aboutMe"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@android:color/darker_gray"
         android:textSize="@dimen/h1"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -33,7 +33,7 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/my_margin"
         android:layout_marginLeft="@dimen/my_margin"
@@ -90,11 +90,8 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginRight="0dp"
         android:layout_marginTop="8dp"
         android:onClick="clickBack"
         android:text="Back"

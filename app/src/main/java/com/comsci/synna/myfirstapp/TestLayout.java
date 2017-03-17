@@ -66,7 +66,17 @@ public class TestLayout extends AppCompatActivity {
         });
 
 
+
         //link to facebook
+        TextView fbTextView = (TextView) findViewById(R.id.txtFacebook);
+        fbTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent fbIntent = new Intent(Intent.ACTION_VIEW);
+                fbIntent.setData(Uri.parse("https://www.facebook.com/synsynna"));
+                startActivity(fbIntent);
+            }
+        });
 
 
     }//main method
